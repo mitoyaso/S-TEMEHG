@@ -1,63 +1,99 @@
-/* Genel sayfa stilleri */
+/* Genel Stil Ayarları */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-/* Başlık stilleri */
-h1 {
-    color: #0073e6;
-    font-size: 28px;
-    margin-top: 20px;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-h2 {
-    color: #005bb5;
-    font-size: 24px;
-    margin-top: 15px;
+/* Header Stili */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
 }
 
-/* Paragraf ve liste stilleri */
-p {
-    font-size: 18px;
+header h1 {
+  margin: 0;
+  text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  text-align: center;
 }
 
-li {
-    font-size: 18px;
-    background: #e0e0e0;
-    padding: 10px;
-    margin: 5px auto;
-    width: 50%;
-    border-radius: 5px;
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-/* Bağlantı (Link) stilleri */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Ana İçerik Bölümü */
+main {
+  padding: 20px 0;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.content-section h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+.content-section p,
+.content-section ul {
+  line-height: 1.6;
+}
+
+/* Link Stili */
 a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    background-color: #0073e6;
-    border-radius: 5px;
-    margin-top: 10px;
+  color: #2980b9;
+  text-decoration: none;
 }
 
 a:hover {
-    background-color: #005bb5;
+  text-decoration: underline;
 }
 
-/* Fotoğraf stilleri */
-img {
-    border-radius: 10px;
-    margin-top: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+/* Buton Stili (Opsiyonel) */
+button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+/* Footer Stili */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
 }
