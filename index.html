@@ -60,6 +60,8 @@
   </footer>
 
   <!-- Örnek JavaScript Etkileşimi (script.js dosyası dahil ediliyor) -->
-  <script src="script.js"></script>
+  <script src="script.js">
+    document.querySelector("footer p").textContent = `© ${new Date().getFullYear()} YAŞAR. Tüm hakları saklıdır.`;
+  </script>
 </body>
 </html>
